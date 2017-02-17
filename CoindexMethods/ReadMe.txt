@@ -17,3 +17,12 @@
 	rpc/client.h : rpclib 라이브러리의 RPC 통신을 위한 클라이언트 헤더.
 
 =========================================================================
+
+	= 정정사항 =
+
+	1. rpclib 라이브러리의 버그
+
+		컴파일시 RPCLIB_MSGPACK 이 정의되지 않은 오류와 함께 대량의 오류 발생
+
+		=> #define RPCLIB_MSGPACK clmdep_msgpack
+		=> clmdep_msgpack 으로 재정의 하여 오류 해결.
