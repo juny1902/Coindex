@@ -38,5 +38,8 @@
     <ClCompile Include="wallet.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="sketch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

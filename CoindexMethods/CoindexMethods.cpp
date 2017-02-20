@@ -5,6 +5,8 @@
 */
 
 #include "stdafx.h"
+const string userID = "";
+const string userPW = "";
 const string _WalletA = "mhf6wNCZjxuG4sCzmVrXxMhtWEzQjMdL3Q"; // 박준영 지갑 (PC Testnet)
 const string _WalletB = "mn8bQCPaihn84V1DiNB17aevJAkiQYFrcz"; // 저스틴형 지갑
 

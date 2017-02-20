@@ -2,6 +2,8 @@
 double balance(std::string address) // 현재의 잔액 얻음.
 {
 	rpc::client c(_SERVER_IP, 18332);
+	c.call("rpcuser coindex");
+	c.call("rpcpassword asdf1234");
 	return c.call("getbalance", address).as<double>(); // getbalance 에 대한 응답을 double 형으로 반환
 }
 
